@@ -1,0 +1,330 @@
+(out-dated, but can be handy)
+                    FTR 3
+
+    -*-*-*-*-*-*RealGamers Bot*-*-*-*-*-*-
+  *-*-*-*-Created by Stefan Hendriks*-*-*-*-*
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-RealBot For Dummies® Ver1*-*-*-*-*
+  *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+   -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+____________________________________________________________________________________________
+
+REALBOT AT:
+http://bot.counter-strike.net/realbot
+
+REALGAMER AT:
+http://www.realgamer.nl
+
+COUNTER-STRIKE AT:
+http://www.counter-strike.net
+
+BOTS DISCUSSION FORUMS AT:
+http://www.nuclearbox.com
+
+UNOFFICIAL REALBOT SITE AND SCREENSHOTS AT:
+http://www.sputsnik.f2s.com/realshots/realbot.html
+____________________________________________________________________________________________
+
+Warning!
+The RealBot For Dummies® below is compiled by ca$h with [ATC]Poison's help.
+Do not hold us responsible if the FAQ below doesn't meet your 'needs';)
+
+Thank you's goes out to those who contributed(in the NuclearBox topic)and to 
+those newbies who kept posting!(even though they got some rude 
+answers),Stefan Hendriks(of course!) and the CS team for the best game of 
+all times!
+
+The RealBot For Dummies® below are actually questions which are posted 
+repetitively in the RealBot forums.
+Credit is not given to the posters because it is IMPOSSIBLE to credit every 
+single damn poster!
+
+Please note also that this FAQ is not supported by IDG Books who is the 
+owner of
+For Dummies® series.
+
+
+p.s.
+RealBot For Dummies® is below! :)
+
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q. What should i do first?
+
+A. Install the bot and read all the readme files first!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do I play CS with RealBot?
+
+A: Click on the 'Play CS' button.You will then see the 'LAN Game' button 
+click on it.
+   Then click the 'Create Game'. From there fill in the max/min players,map 
+and what ever    you want.When you're done, Clok 'Ok'
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do I addbots?
+Q: How do I choose which team the bot's in?
+Q: The bots are too hard! What do I do?
+Q: The bots are to difficult to kill!!! How do i change the skill level???
+Q: I want my name in there!!! How do i do it?
+
+
+A:type (in the console) /addbot (team) (appearance) (name) (skill level)
+
+   (team)           = 1 for Terrorists,2 for Counter-Terrorists
+   (appearance)     = 1 to 4 (appearance is what you want the bot to wear!)
+   (name)           = Name of the bot e.g. newbie,dummy,Bill 
+Gates,IWantToKillLeagle
+   (skill level)    = 1 to 50.(1 is the hardest while 50 is vice versa.Note! 
+variations such                       as 1.11 can be used!)
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do I add bots automatically?
+Q: How do I keep from typing addbot at the beginning of a game?
+
+A: Use the bot.config file in your CS folder...Just follow the instructions 
+from there!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do I kick the bots?
+
+
+A: Just type(in the console) /kick (bot's name)
+A: Type(in the console) listplayers. Then, type /kick (player's number)
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do I change the map?
+
+A: Type /map (map's name)
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Cannot start!I go to LAN game, create game, do everything I am supposed 
+to do, but as it    loads, I get the DLL Error, but I have the most up to 
+date version of Half-Life
+
+A: Reinstall RealBot and make sure you the files extracted into the CORRECT 
+directory!
+   (i.e. c:\sierra\half-life\cstrike
+A: Download the file again as there may be some errors during the donloading 
+process.
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: I can't seem to run RealBot on Win2000 or ME!
+
+A: RealBot's source code is tied with Half-Life's code.It seems there are 
+problems with        RealBot on Win2000 and ME. I suggest using Win 98 as it 
+is the most stable OS for           Half-Life.
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Does RealBot cheat using impulse 101?
+
+A: No! Even though sv_cheats 1 is enabled, they won't use it.
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: They seem to see through walls.
+
+A: Lower down the skill level!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Are Leagle and SadBloke brothers?
+
+A: Ummm...nope..they're just 'blood'. But HappyBloke is SadBloke's good 
+side!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Does Stefan Hendriks gets anything from making RealBot?
+
+A: Yes!The adoration(aww!) of it's users!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: I don't want to wait so long for a round to end
+
+A: Change the mp_roundtime on 3 minutes ate the advanced options when you 
+create a LAN game
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: WHy this documentation isn't finished?
+
+A: ca$h is waiting for Alpha 3 and more questions from the newbies..
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do i trash the bots?
+
+A: Practice more,complain less
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do i get free blow jobs?
+
+A: Get a grrlfriend ;)
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Can those bots drive vehicles?
+
+A: Not yet!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Android/NNBot/Rambot/SwatBot/Whateverbot is better than RealBot.
+
+A: Well,each bot has it's Pros and Cons..BUT realBot has more Pros than any 
+other bot!
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: Would Stefan mind if I keep sending him bug reports?
+
+A: NO! Especially when you come with new bugs reports everytime.
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How can I add more than 3 bots?(!)
+
+A: Add " -heapsize 40000" in the command line of your
+   Cstrike shortcut. (Ideally this should be 1/2 of
+   your total ram in kilobytes.)
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+Q: How do I kill  bots with just a press of a button?
+
+A:
+--------------------------------------------------------------------------------
+This script will add bots and kill bots. I created cos' i was sick of typing 
+"addbot x x xxxxx x" etc and waiting for rounds to end.
+Add this to your "autoexec.cfg" (if u dont have one, just create one)
+
+//---------------------------------------------------------------------
+//Stuff
+alias w5 "wait; wait; wait; wait; wait"
+
+alias dv1 "developer 1"
+alias dv0 "developer 0"
+
+//Adds bots
+alias addbots "ab1"
+alias ab1 "addbot 5 1 Tuff-Enuff 25; w5; ab2"
+alias ab2 "addbot 5 2 Medic911 25; w5; ab3"
+alias ab3 "addbot 5 3 DaveJ 25; w5; ab4"
+alias ab4 "addbot 5 4 Ca$h 25; w5; ab5"
+alias ab5 "addbot 5 1 Ics-Cream-Pancake 25; w5; ab6"
+alias ab6 "addbot 5 2 Cassius-Maximus 25; w5; ab7"
+alias ab7 "addbot 5 3 8827Echo 25; w5; ab8"
+alias ab8 "addbot 5 4 SadBloke 25; w5; ab9"
+alias ab9 "addbot 5 1 Beta-Tester 25; w5; ab10"
+alias ab10 "addbot 5 2 Leagle 25; w5; ab11"
+alias ab11 "addbot 5 3 Baka 25; w5; ab12"
+alias ab12 "addbot 5 4 RzE 25; w5; ab13"
+alias ab13 "addbot 5 1 Stefan 1; w5; ab14"
+alias ab14 "addbot 5 2 Cliffe 25; w5; ab15"
+alias ab15 "addbot 5 3 Gooseman 1; w5; ab16"
+alias ab16 "addbot 5 4 Danishguy 25; w5; ab17"
+alias ab17 "addbot 5 1 [DarK]Poison 25; w5; ab18"
+alias ab18 "addbot 5 2 Bruce-Lee 25; w5; ab19"
+alias ab19 "addbot 5 3 DuNnO 25; w5; dv1; echo Addbot.cfg executed, bots 
+added; dv0"
+
+//Kill bots
+alias killbots "add"
+alias add "alias killbots kill1; addbots"
+alias kill1 "alias killbots kill2; sv_gravity -10000; dv1; echo Flying Bots; 
+dv0"
+alias kill2 "alias killbots kill3; sv_gravity 10000; dv1; echo Dead Bots; 
+dv0"
+alias kill3 "alias killbots kill1; sv_gravity 800; dv1; echo Normal Gravity; 
+dv0"
+//----------------------------------------------------------------------------------------------
+
+add this to your config.cfg
+
+//-------------------------------------------
+bind "x" "killbots"
+//-------------------------------------------
+
+(x = the key you want to bind)
+
+This is what it does:
+
+1: The 1st press adds bots (depending on what maxplayers is set to)(up to 19 
+bots)
+
+2: The 2nd press makes the gravity -10000 (send bots up in the air (if they 
+jump etc))
+
+3: The 3rd press makes the gravity 10000 (sends bots crashing down to the 
+ground (kills 'em)
+
+4: The 4th press restores the gravity to normal
+
+NOTE: Once you have passed step :1, it will cycle through steps :2, :3 and 
+:4 only
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+
+Q: RalBot just hopped all over the place and would not go anywhere!Wtf?!
+
+A: Set setting your FPS_MAX value down from 100 to 30.
+
+
+!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*
+
+
+
+
+
+
+
+RealBots For Dummies® compiled by:
+ca$h aka Ng Jun Wen
+
+
+
+Contributors:
+Every newbie
+Stefan Hendriks(For every frag I get,I thank RealBot for the practice! Amen)
+[Dark]Poison
+feefoo
+Leagle(A great friend and poster!)
+SadBloke(Another great pal/enemy)
+Sputsnik(For a kickass site!)
+BaKa(For flaming the Android forums!)
+kino_kicks_ass
+feefoo
+
+Extra Special Thanks:
+Tuff Enuff
+Warpath03
+
+Misc. People:
+Hazmy(Where are you!)
+Beta-Tester(Hmm...Do you exist? ;)
+cliffe(for supporting RealBot)
+Rze(for reviewing RealBot and calling it the best CS bot ever!)
+
+
+
+

@@ -1,0 +1,24 @@
+**** This map is designed for the Counterstrike Half-Life mod ****
+22.2.2000
+================================================================
+Title			: CS_2Blocks
+Version			: 1
+Filename		: cs_2blocks.zip (includes
+				cs_2blocks.bsp,
+				cs_2blocks_info.txt)
+Author			: Richard Schmidt [Nicemice]
+Email Address		: nicemice@bigsession.de
+Homepage		: http://www.annexus.de/bigsession/nicemice/
+File			: ---
+Description		: A Counterstrike -Hostage Rescue- Map
+
+How to use this file
+----------------------
+Extract the Zip file into your half-life\cstrike\maps directory.
+
+COPYRIGHT NOTICES and PERMISSIONS
+----------------------
+Authors MAY NOT use this level as a base to build additional levels. 
+
+Please Email me with any suggestions, bugs etc , Thanks.
+(c)copyright 2000 by Richard Schmidt

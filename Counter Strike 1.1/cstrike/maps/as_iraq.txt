@@ -1,0 +1,16 @@
+Iraqi Stronghold - Assassination
+
+Authors: Mr_Deth & Zaphod Beeblebrox
+Texture Artist: MacMan
+-------------------------------------------
+
+Counter-Terrorists: Escort the president
+to safety at the bunker facility. There 
+is a truck already awaiting his arrival.
+
+Terrorists: Prevent the filthy American 
+scum from escaping! Kill their president
+at all costs! Do whatever it takes but do 
+not let him escape!
+
+(Press FIRE to continue)

@@ -1,0 +1,12 @@
+OilRig - Assassination
+Map by Omicron (alwhiting@home.com)
+
+Background: A U.N. Peacekeeper has been trapped in an Albanian city bombed this morning.
+An elike Counter-Terrorist Force has been dispatched to escort the peacekeeper down the streets of the destroyed town to safety.
+
+Counter-Terrorists: Protect the Peacekeeper at all costs.  Escort him across the town
+to the waiting APC.
+
+Terrorists: Position yourselves around the town and kill the VIP.  Do not let him escape.
+
+(Press FIRE to continue)

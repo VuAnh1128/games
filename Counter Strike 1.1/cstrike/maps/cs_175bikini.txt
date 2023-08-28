@@ -1,0 +1,19 @@
+Cs_175bikini - Hostage Rescue
+Mapping: bh@naffware.fsnet.co.uk
+Textures: Xtender www.fuchtelworld.de
+
+Scenario: The Bikini Hangout super models are on
+a photoshoot at 175 Bikini Drive when it is
+infiltrated by terrorists who take them hostage.
+
+Terrorists:  prevent the CT's from rescuing
+the hostages.
+
+Counter Terrorists: rescue the hostages or
+eliminate the terrorists.
+
+Notes: four hostages are split into two groups.
+There is one rescue zone located behind the
+van.
+
+(Press FIRE to continue)

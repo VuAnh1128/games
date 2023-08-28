@@ -1,0 +1,17 @@
+Hunted - Assassination / Escort
+ported to CS by Moli
+(akosk@dragon.klte.hu)
+
+Counter-Terrorists:
+Escort the VIP to the safety zone.
+Team members must protect the VIP.
+
+Terrorists:
+Eliminate the VIP and prevent him
+from reaching the safety zone.
+
+Objective: The VIP must reach the truck
+alive. The Ts need to kill The VIP.
+The CTs need to protect The VIP.
+
+(Press FIRE to continue)

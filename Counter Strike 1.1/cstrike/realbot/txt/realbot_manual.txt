@@ -1,0 +1,394 @@
+RealGamer's RealBot Beta 2 Manual
+---------------------------------
+(This manual is not 100% finished, read the REALBOT_FOR_DUMMIES.TXT for any questions)
+(For those who have CS 6.5 or CS 6.6, read almost below how to set RealBot for CS 6.x)
+
+-----------
+WHAT'S NEW?
+-----------
+Mostly bugfixes, tweaks, and more info-points supported! More optimized maps
+and more! Read the readme.txt for a list!
+
+
+-----------------------
+HOW TO BEGIN A LAN GAME
+-----------------------
+You can play with RealBot on an own created LAN game, or INTERNET game.
+To create a lan game, click on PLAY CS, then MULTIPLAYER, CREATE LAN.
+After that set the max players you want to be able to play, the map and
+set the timelimit, or freezetime. Its suggested to set the timelimit to
+0. (the timelimit and freezetime are in the ADVANCED section). Then click
+on OK. 
+
+------------------------
+HOW TO PLAY WITH REALBOT
+------------------------
+In this version you can add bots using the Menu. Press N to bring up the menu. 
+Now select Option 1 (Add RealBot), you will be able to add a RANDOM bot or a
+SPECIFIED bot. Press 1 to add a bot , auto-teambalanced and random model and
+random skill + name. Else, choose SPECIFIED to specify its Skill and Team.
+
+You can also add bots through console:
+
+  THROUGH CONSOLE:
+
+Create lan/internet game (read above), then bring down the console using
+the ~ key. If it doesnt show up , read the REALBOT_FOR_DUMMIES.txt how
+make it appear. To add a bot, you use the ADDBOT command, the full syntax
+is:
+
+ADDBOT <team> <model> <name> <skill>
+
+You DON'T have to fill in the sections if you just want to add a bot. When
+leaving everything open. The bot will choose the team with less players 
+(will equal teams automaticly!), random model, random name and <skill> will
+be equal to BOTSKILL variable which is standard -1 (RANDOM). 
+
+Valid teams are:
+1 - Terrorist
+2 - Counter
+5 - Auto
+
+Valid models are:
+1, 2, 3, 4 - Model of team
+5 - Auto
+
+Valid names:
+Any name you like! 
+
+Valid skill:
+1 through 50. 
+1  = Hard
+50 = Easy
+-1 = RANDOM (will pick a random skill)
+
+
+Example 1, Add bot with EVERYTHING random:
+
+ADDBOT
+
+Example 2, Add bot assigned to Terror only, rest is random
+
+ADDBOT 1
+
+Example 3, Add a bot to random model, team, own name, own skill (32)
+
+ADDBOT 5 5 "MyBot" 32
+
+
+--------------------------------------
+HOW TO KICK/REMOVE A BOT FROM THE GAME
+--------------------------------------
+Use the console command rb_removebot <amount> <team>
+
+rb_removebot 1 1 
+will kick 1 bot of team 1 (= Terror)
+rb_removebot 1 2
+will kick 1 bot of team 2 (= Counter)
+NO team specified will randomly kick bots.
+
+Manner 2:
+
+Use KICK, e.g.: You want to kick a bot named UrDead
+
+KICK "UrDead"
+
+
+
+
+------------------------------------------
+HOW TO ADD A LOT OF BOTS TO THE SAME TEAM.
+(SIMULATE A 1HUMAN VS 10 BOTS)
+------------------------------------------
+NEW: Using the Menu, press N (brings menu) and press 3 to get all bots
+against you. This only works if you haven't added bots yet. Else it will
+auto-balance the teams. Or even give you all the bots. Be sure though you
+have set the mp_autoteambalance to 0.
+
+
+...THROUGH CONSOLE....
+There are several ways to do this:
+
+BEFORE YOU DO ANYTHING, BE SURE MP_AUTOTEAMBALANCE is 0!
+
+The bot.cfg has automaticly SET this flag to 0. You don't have
+to do anything if didnt change the bot.cfg.
+
+MANNER 1:
+
+Do not join a team, instead, add bots to the specific team you want
+to fight against. Then join the opposite team. All bots should be
+assigned to the team you want to fight against then. Example:
+(you want to be CT , all bots T, maxplayers is 8)
+
+Type this in console 7 times (to repeat faster, press UP after the
+first typed command)
+
+ADDBOT 1
+
+Mostly, 3 bots joined the Terrorist, rest is UNASSIGNED. Now YOU join
+the Counter-Terrorists, all UNASSIGNED bots should be in the Terrors
+
+
+MANNER 2:
+
+Here is an other manner. 
+Join the team you want to play in, now add bots to the opposite team.
+Probably 3 join, rest is unnassigned, now kick 1 bot. All other
+UNNASSIGNED bots should join the opposite team. The one you have kicked 
+could be re-added using the same command, but not 100% sure it will join 
+the other team again: Example:
+(max players is 8, you CT, want to add 7 bots to T)
+
+Join CT,
+
+Type in console 7 times:
+
+ADDBOT 1
+
+Now you have to kick one bot, pick a name and kick him. E.g. name is UrDead
+
+KICK "UrDead"
+
+All UNASSIGNED bots should join the terror force now.
+
+Try to re-add the bot
+
+ADDBOT 1
+
+MANNER 3 (by Markku Pitkänen)
+
+This manner is more easier than Manner 1 and Manner 2. 
+Type in console:
+
+mp_limitteams 7
+
+now addbots to the team you want to play against. Some bots get in the unassigned
+part. Then type:
+
+sv_restartround 1
+
+And you should fight aginst them.
+
+
+--------------------------------------------
+HOW TO LET ALL BOTS BE AUTOMATICLY SKILL ### 
+--------------------------------------------
+In BOT.CFG a command is passed: BOTSKILL -1
+This sets the default skill to -1, which means RANDOM.
+All bots that are added, and didnt get a special parameter for <skill> 
+will get the default skill. 
+
+To change the botskill, type:
+
+BOTSKILL <defaultskill>
+
+the skill ranges from 1, till 50. 
+1  = Very good
+50 = Very bad
+
+Skill affects behaviour on flashbangs, team work, radio, reaction time
+buying stuff and aiming.
+
+Its now possible to set the Ranges!
+You can set the Random Ranges by using:
+
+rb_minskill <value>
+rb_maxskill <value>
+
+You can't have a higher minskill than maxskill and otherwhise. The maxskill
+cannot go higher than 50 and the minskill not lower than 1. Example to set
+ranges from 1-30
+
+rb_minskill 1
+rb_maxskill 30
+
+
+Manner 2:
+Add bots, then type in console
+RB_FORCESKILL ### 
+all bots will be skill ### then (and never change, unless you set it to -1)
+
+
+-------------------------------------------------------------------
+I HAVE COUNTER-STRIKE BETA 6.5 (OR 6.6 OR 7.0), HOW TO SET REALBOT?
+-------------------------------------------------------------------
+This command used to be bot_beta7, but since CS v1.0 is out, i've made a new
+command called RB_PLAYINGCS <value> Here are the settings
+
+Value			CS Version
+0			Version 1.0
+1			Beta 7.x
+2			Beta 6.5 or Beta 6.6
+
+
+So, to make them play CS 6.6
+
+you have to type:
+
+rb_playingcs 2
+
+
+---------------------------------------------
+TO WHICH RADIO COMMANDS DO THE BOT LISTEN TO?
+---------------------------------------------
+They listen to:
+
+FOLLOW ME: Bot will follow (if found you) for 60 secs
+
+NEED BACKUP: Bot will try to search for you 10 secs, when found
+             it will backup you.
+
+TAKING FIRE NEED ASSISTANCE: Same as NEED BACKUP
+
+YOU TAKE THE POINT: Bot will stop following you.
+
+TEAM FALL BACK: Bots will be more cautious. 
+                NEW : Bots will retreat
+
+GO GO GO: The bots will chase the goal entity, this might
+          be handy when you see bots are walking the wrong
+          way, just say GO GO GO, and the bots will check
+          it out.  They will NOT follow anyone then.
+	  NEW: Will stop camping
+
+Note: Some bots don't react , or some bots say Negative!
+      Bots reaction is based upon skills.
+
+The listening code , came from Ditlew (NNBOT), i expanded and 
+fixed the code for RealBot. Thanks Ditlew!
+
+----------------------------------------------------------------------
+I CAN'T ADD MORE THAN 4 PLAYERS, ALTHOUGH I SET THE MAXPLAYERS TO ###!
+----------------------------------------------------------------------
+Ok, try this, it works most of the time, unless you don't have enough
+HD space.
+
+Edit the shortcut of counter-strike, and change the command line into:
+(assuming you didnt change anything, else, just add what is different
+compared to yours).
+
+hl.exe -game cstrike -console -heapsize 32000
+
+Where heapsize nr is the amount of RAM. It is adviced to take 50% of
+the RAM you have. So if your computer has 64MB, 32000 is the heapsize:
+
+Table:
+MB	Heapsize
+64	32000
+128	64000
+192	96000
+etc.	etc.
+
+-----------------------------------------------------------------
+CAN I ADD CHAT INSULT SENTENCES? (thanks to Botman for this code)
+-----------------------------------------------------------------
+YES! Edit RB_INSULT.TXT , add your sentences or modify the original
+ones. Max is 100 chat sentences in total. Maximum length each sentence
+is 80 characters. A %n means the name of the killed bot. E.g.
+
+A bot called "UrDead" kills a bot named "MeDies", the following sentence
+would look like:
+
+IN RB_INSULT.TXT:
+Well %n, i got ya!
+
+In Half-Life Using RealBot
+UrDead :  Well MeDies, i got ya!
+
+If you have a lot of sentences added, you can send the txt file to me.
+I might add them to the original releases then. 
+
+Thanks Botman!
+
+------------------------------------------------------
+CAN I ADD MY OWN RANDOM NAMES TO THE REALBOT DATABASE?
+------------------------------------------------------
+YES! Thanks to botmans CHAT code, i could add the same sort of
+code for names! All names are listed in RB_NAMES.TXT, max length
+of name is 25 characters! Max names is 100!
+
+
+--------------------------------------------------------
+CAN I STILL PLAY ON THE INTERNET WITH REALBOT INSTALLED?
+--------------------------------------------------------
+Yes, you are still able to play on the internet. Realbot
+only affects HL when you CREATE a game. Not when you JOIN
+a game.
+
+
+-------------------------------------------------
+I WANT TO USE/TRY AN OTHER BOT, WHAT SHOULD I DO?
+-------------------------------------------------
+Just install the other bot, RealBot has its own folder so nothing
+will harm RB in any way.
+
+
+------------------------------
+I WANT TO DELETE REALBOT, HOW?
+------------------------------
+Delete the RealBot folder. Then delete liblist.gam
+rename the old_liblist.gam into liblist.gam (to set back the original
+CS liblist.gam) and you've deleted RB for good.
+
+-------------------------------------
+I WANT TO TEMPORARILY DISABLE REALBOT
+-------------------------------------
+Rename the liblist.gam and old_liblist.gam. So for instance;
+
+1. Rename liblist.gam into rb_liblist.gam
+2. Rename old_liblist.gam into liblist.gam
+
+--------------------------
+I WANT TO ENABLE IT AGAIN!
+--------------------------
+Reverse:
+
+1. Rename liblist.gam into old_liblist.gam
+2. Rename rb_liblist.gam into liblist.gam
+
+
+This manual is a simple written Question/Answer document, if you still have
+questions, plz read the REALBOT_FOR_DUMMIES.TXT written by one of the testers
+
+-------------------------------------------------------------------------------
+				REALBOT CREDITS
+-------------------------------------------------------------------------------
+Coding:
+
+Botman		- HPB Bot Code, and help with problems.
+Stefan		- RealBot AI , Combat, etc.
+
+Help on Coding:
+Ditlew		- exchanging code information for new features.
+DaTa		- for the great conversations about AI.
+Count Floyd	- For the last 2 Entity's of CS 1.0
+DarkYouth	- Nice conversations about navigation/learning maps etc.
+
+Bugs and overall Help:
+GooseMan	- help on flashbang, and other questions.
+Cliffe		- for his help on HTML.
+Marcus Klimstra - For the menu code.
+MikeJ		- Optimized RBL files!
+ImpaileR & Necro- For testing previous versions of RB and being in the team.
+
+Official Testers:
+SadBloke
+Leagle		
+Ca$h
+Neverwinter
+Siro
+Mike
+
+Offical Optimizer:
+MikeJ
+
+RealBot for Dummies txt file:
+ca$h
+[ATC]Poison for his help.
+
+Website(s):
+CS.NET		- For hosting realbot, thanks to the CS team!
+Sputsnik        - For his official fansite about RealBot!
+CSBots@PHL	- For their great up-to-date news and for
+                  the "Best bot of the Year 2000" contest.

@@ -1,0 +1,74 @@
+RealBot Info-point Guide
+------------------------
+
+Realbot at    : http://bot.counter-strike.net/realbot
+RB Fanzone    : http://bot.counter-strike.net/realbot/fanzone
+Counter-Strike: http://www.counter-strike.net
+		
+Nuclearbox    : http://www.nuclearbox.com
+RealGamer     : http://www.realgamer.nl
+
+RealBot Info-Points: (At the Fanzone!)
+http://bot.counter-strike.net/realbot/fanzone/infopoints.html
+
+
+CONTENTS:
+
+1)	What are Info-Points?
+2)	What does the Global Waypoint System mean?
+3)	How to optimize a map?
+
+
+-----------------------------
+1 	WHAT ARE INFO-POINTS?
+-----------------------------
+Info-Points are certain positions in a map, which represent a sort of waypoint to let a bot
+perform a certain action when its near such an info-point. As example, a JUMP info-point 
+will make the bot jump when it gets near such an info-point. 
+
+In Beta 1, the bot currently learns 2 Info-Points by itself:
+- > The JUMP info-point
+- > The DUCK info-point
+
+The Global Waypoint System excists of MOVE info-points.
+
+--------------------------------------------------
+2	WHAT DOES THE GLOBAL WAYPOINT SYSTEM MEAN?
+--------------------------------------------------
+RealBot is an unwaypointed bot, however, to get maximum performance , it is always handy
+to let a bot know for sure where it could move to. This makes the bot look more smarter
+and will let the rounds end quicker. However, the bots will be more predictable.
+
+At the moment, i'm busy to balance the Navigation of RealBot FTR 1 and a simple Waypoint
+system. If a bot finds an Info-Point MOVE, then it will move to it. If not, then it will
+move using its own Navigation System. The idea is, to merge the two. To get an unpredictable
+, yet , good enough Navigation. You have to place the MOVE info-points manually.
+
+
+------------------------------
+3	HOW TO OPTIMIZE A MAP?
+------------------------------
+Ok, the current navigation code for the MOVE info-points is pretty primitive. You should only
+place the MOVE info-points VERY globaly. Meaning, only on specific spots where the bot should
+pay extra attention to. You can easily add Info-Points. There is NO remove option YET.
+You can place the info-points at ANY time. To place an info-point:
+
+Press N to bring the Menu.
+Choose 2 (Info-Point Menu)
+Choose 1 (Add info-point)
+Choose 1 (Add MOVE waypoint)
+
+An info-point is added, its not visible, but its there for sure! 
+You can spawn a bot to check if the map works better now, if not, just clear the memory and
+place the info-points again. 
+
+Again, DON'T place TO MANY info-points to close at each other. This will confuse the bot.
+
+No official Support for this issue in Beta 1. Its still primitive. All RBL files you send are accepted
+but please test them 200% before you send them. Only send RBL files which have MOVE info-points.
+Since RealBot auto-generates for EACH map a RBL file, but not spawns MOVE info-points on its own. 
+
+END OF FILE
+
+
+		

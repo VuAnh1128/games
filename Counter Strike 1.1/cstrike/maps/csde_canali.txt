@@ -1,0 +1,16 @@
+Canali - Bomb/Defuse & Hostage rescue
+by CMG Lee (cmg_lee@yahoo.com)
+
+Conquer the elements in this Venice-like village:
+Land - Conventional warfare over (some) crumbling bridges...
+Sea  - The great warrior uses the tide to his/her advantage!
+Air  - Roam the village's rooftops, but beware of snipers...
+         Rumour has it that 2 deadly weapons await the bold.
+
+Counter-Terrorists:  Defuse bombs that threaten the gas
+tanks or lead the 4 hostages to the Hostage Rescue Point.
+
+Terrorists:  Bomb one of the 3 caches of LNG tanks while
+preventing Counter-Terrorists from rescuing the hostages.
+
+Advert: Get csde_canelli, the shotgun-pumping version.

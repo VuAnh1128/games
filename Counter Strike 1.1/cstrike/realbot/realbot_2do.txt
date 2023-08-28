@@ -1,0 +1,19 @@
+RealBot To-Do List
+==================
+
+Wondering what will come?
+
+--------
+Probably
+--------
+Totally rewritten nav, even less info-points needed
+Create own fighting styles and link them to personalities
+
+
+--------
+For sure
+--------
+Personalities PER BOT name.  (set even TK rate)
+
+
+Any idea is welcome. (the 'huge' ideas are only listed here)

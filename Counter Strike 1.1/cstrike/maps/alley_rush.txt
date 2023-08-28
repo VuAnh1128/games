@@ -1,0 +1,12 @@
+Alley Rush - Bomb/Diffuse
+Mapping  by Nathaniel Miller AKA NIPPER
+maps @ www.geocities.com/nipper14223
+ 
+Based on a map idea by: C4-1 
+
+Ts: Rush down the alley and blow up
+the crate in front of the CT hideout.
+
+CTs: Stop the Ts from blowing up your
+precious crate prefab!
+

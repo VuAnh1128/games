@@ -1,0 +1,23 @@
+as_evil - assassination map
+by Essential
+(essential@delfi.lt)
+textures by  "Blazeeer"; "VALVE corp" 
+
+THE STORY:
+===============================
+Something strange has happened in Raccoon city. Citizens has been infected by a 
+G-Virus. Chris Redfield began investigation, and has found evidences of G-Virus 
+in the umbrella lab. Umbrella corp can't let the truth to come out.
+
+Counter-Terrorists:  you are S.T.A.R.S (special tactics and rescue service)  
+You have to lead Chris Redfield (VIP) from Umbrella corp to the Raccoon city subway,
+located near RPD. 
+
+Terrorists: you are Umbrella corp squad, and you have to elliminate all evidences.
+Your main target - Chris Redfield (VIP). He can't reach the subway!
+
+
+Other Notes: 
+This map is dedicated to all Resident Evil and CS fans.
+Thanks to "Resident Evil: the escape" team for their zombie sounds.
+Piano theme is from RE2.

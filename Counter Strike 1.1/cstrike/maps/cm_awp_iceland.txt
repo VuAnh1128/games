@@ -1,0 +1,7 @@
+cm_awp_iceland - deathmatch
+Map by LiQUiD iCE and XeNoLiTh
+
+Counter-Terrorists: Kill all Terrorist units
+
+Terrorists: Kill all Counter-Terrorist units.
+

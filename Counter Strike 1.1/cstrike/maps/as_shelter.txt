@@ -1,0 +1,18 @@
+As_Shelter - Assassination
+
+Author: Slackiller
+Texture Artists:cm_organic wad made from countermap artists.
+Mike Zilla & R25(crinity)
+Models: moby
+-------------------------------------------
+
+Counter-Terrorists: Escort the main scientist
+to safety at the bunker exits. There 
+is a humvee at each exit area awaiting his arrival.
+
+Terrorists: Prevent the American 
+scientist from escaping! Kill their V.I.P.
+at all costs! Do whatever it takes but do 
+not let him escape!
+
+(Press FIRE to continue)

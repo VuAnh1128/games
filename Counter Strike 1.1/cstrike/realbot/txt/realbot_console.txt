@@ -1,0 +1,113 @@
+RealBot Console Commands
+------------------------
+The following commands are RealBot specific.
+
+rb_endround
+===========
+Ends the round by letting all bots suicide (like End Round option in MENU)
+
+rb_removebot <amount> <team>
+===========================
+Will remove <amount> bots of the game of <team>. If <team> is not specified
+then the last added bots will be removed. Else RealBot will pick a random team,
+note that this can be a team without bots and so no bot will be kicked. Its recommended
+to specify value AND team.
+
+Team Values:
+1		Terror
+2		Counter
+
+rb_playincs <value>    (was bot_beta7) <NEW>
+===================
+This variable sets which version of CS you are playing.
+Value determines version of CS.
+
+Value			CS Version
+0			Version 1.0
+1			Beta 7.x
+2			Beta 6.5 or Beta 6.6
+
+This only affects the bots behaviour for buying weapons (else you get weird
+errors and such coming up with bots wanting to buy things that can't be bought).
+
+
+rb_init                           <WAS REALBOT_INIT>
+=======
+Clears Info-Point database.
+
+rb_freeze <value>
+=================
+0) Bots move
+1) Bots will freeze (easy target)
+
+rb_help
+=======
+Will give you a small list of the most used and effective realbot
+specific console commands.
+
+
+rb_minskill <value>
+===================
+<value> should be the minimum skill that can be choosen when you
+want a random skill added to the bot. The normal boundries are
+1-50, using this command you can set it so, that bots won't get
+a lower skill than 20.
+
+Example (no bot can have a skill of 20 or lower):
+
+rb_minskill 20
+
+
+rb_maxskill <value>
+===================
+This does the same as rb_minskill, except it sets the maximum.
+This way, you can have bots with not a higher skill than 40.
+(note: the higher, the worse the bot fights, the lower the skill value
+the better the bot fights).
+
+To set up a max of 40:
+
+rb_maxskill 40
+
+In total, if you want bots with a random skill between 20 and 40, type:
+
+rb_minskill 20 
+<press ENTER>
+rb_maxskill 40
+<press ENTER>
+
+
+rb_addinfopoint <infopointtype> <parameter>
+=========================================
+Adds an infopoint of the specific type. Read realbot_infopoint.txt for
+more information about infopoint types. Remember, only use the second
+parameter if you use infopoint type 5. 
+
+Example 1: Add infopoint type number 6 (sniper waypoint)
+
+rb_addinfopoint 6
+
+Example 2: Add infopoint location information (type 5)
+
+rb_addinfopoint 5 "the garagedoor"
+
+
+
+rb_dontshoot <value>
+====================
+Standard value is 0, determines if bots should start shooting at 
+enemies or not. Set value to 1 if you want to practice against bots
+who don't shoot at you. For example, to train as a sniper.
+
+
+rb_save
+=======
+Type this to save the learned data at that moment.
+
+
+rb_autosave <value>
+===================
+Standard is 0 (true), if value is 0, then it will save the learned
+data every round. Set to 1, to let the bot just learn for the moment
+but not to save it into a file. (use rb_save to save it anywayz, or
+set the rb_autosave back to 0 to let it save every round again).

@@ -1,0 +1,42 @@
+RealBot Chat/Insult sentences
+-----------------------------
+
+The following people have helped with translating the english version:
+
+Language		Name			Mail
+----------------------------------------------------------------------
+133t			cash			cash_ownz_j00@yahoo.com.sg
+Bulgarian		Supercalifragil 	underow@prascho.com
+Danish			LaLLe			lalle@popme.dk
+Dutch			Stefan Hendriks		stefan@counter-strike.net
+English			Multiple (testers).	<NONE>
+Finnish			Juha Mostonen		jemustonen@icqmail.com
+French(1)		Fabien Cantaloup	fabien.cantaloup@freesbee.fr
+French(2)		[DLT]-IlSanto-		Dltteam@aol.com
+German			[BbB]dreamwalker	dream.walker@gmx.net
+Greek			Orfanos	Nikos		stelth@otenet.gr
+Italian(1)		[DLT] Doog the reaver	Dltteam@aol.com
+Italian(2)		Singe			shiftycapone@hotmail.com
+Indonesian		who^AM_I 		zhaf2020@hotmail.com
+Malay	+ Manglish	cash			cash_ownz_j00@yahoo.com.sg
+Norwegian(1)		Thomas Evensen		thomas@thomasevensen.org
+Norwegian(2)		Erik Mohn		erik.mohn@cocacoliker.com
+Portuguese		Singe			shiftycapone@hotmail.com
+Spanish(1)		????			????
+Spanish(2)		Singe			shiftycapone@hotmail.com
+Swedish(1)		Spike the KILLER 	c.spike@swipnet.se
+Swedish(2)		Stefan Jansson		stefan.jansson@chello.se
+Tagalog			Michael Torres		mctorres21@hotmail.com
+
+NOTE: In Beta 2.0 there are folders with <LANGUAGE><NR> these are a slightly different
+translations of the language. Also some have new insults, some dont. So choose the one
+you like the most.
+
+To use the language, overwrite the rb_insults file in the main realbot folder
+with the rb_insults file which is located in your language.
+
+If your language is not here, and you think it should be included. Please send
+me a mail with a translated rb_insults file. The first person who sent a translation
+of the 'not included' language will be named here.
+
+NOTE: The dead chat is NOT in a file YET.

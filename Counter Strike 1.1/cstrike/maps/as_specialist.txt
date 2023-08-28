@@ -1,0 +1,22 @@
+AS_SPECIALIST
+by Angelo "Wedge Antilles" Barato (cotonet@altavista.net)
+website: http://wedge.counter-strike.com.br
+credits: see as_specialist_beta2_info
+
+Background: A terrorist group has stolen a nuclear warhead from
+a military base and intends to detonate it in a warehouse
+located at the suburb of a great and populous city.
+
+The only one that can disarm the bomb is it's creator (VIP).
+
+Notes: There are two ways to disarm the bomb: through the
+laptop stolen by the terrorists next to the warhead, which
+contains the disarmament program, or directly in the warhead.
+
+Counter-Terrorists: Protect and scort the V.I.P to one of the
+warhead disarm points.
+
+If the mission fails, 20 Million people will die by your failure!
+
+Terrorists: Protect the warhead and don't let anyone use that
+pretty laptop... and let the entire city blow!

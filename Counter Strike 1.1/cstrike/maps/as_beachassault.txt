@@ -1,0 +1,13 @@
+as_beachassault
+By BigDToal
+
+A group of terrorists have infiltrated and taken a strategic weapons dump
+of the coast of America. They have armed one of the nuclear warheads
+and it has begun its countdown. You must get the V.I.P into the dump
+and to the warhead so he can defuse the bomb. Only the V.I.P can defuse
+it so it is essential he survives.
+
+Terrorists:- kill the V.I.P. so he can`t defuse the bomb.
+
+Counter-terrorists:- Protect the V.I.P so he can get inside the facility
+		and defuse the bomb.

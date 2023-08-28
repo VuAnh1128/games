@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+16:06 2023-01-11
+cách thêm bot trong game cs 1.1:
+nhấn phím ~ trên bàn phím, sẽ có một cửa sổ hiện ra gõ lệnh: addbot 1 rồi nhấn enter nhé, nếu bạn muốn thêm nhiều quân hãy gõ lệnh số tương ứng, ví dụ: addbot 5
+--
+kiểm tra có bao nhiêu quân bot hãy nhấn phím tab xem nhé
+https://vfo.vn/r/cach-add-bot-vao-cs-1-1.121370/
+
+
+16:04 2023-01-11
+https://quantrimang.com/cong-nghe/cach-mo-cua-so-lenh-cs-1-1-168241

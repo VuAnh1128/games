@@ -1,0 +1,17 @@
+as_tigris
+____________________
+by Blader&Stroggos
+(www.stroggos.de)
+
+
+Counter-Terrorists
+____________________
+Escort the VIP to one of the
+two safety zones.
+
+Terrorists
+____________________
+The Terrorist prevent the VIP
+from escaping the city.
+
+[Press FIRE to continue]

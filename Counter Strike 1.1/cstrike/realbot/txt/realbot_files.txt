@@ -1,0 +1,34 @@
+The following files are installed by the RealBot Installer:
+
+(data)
+DLLS\REALBOT.DLL	- RealBots Brain
+BOT.CFG			- Settings for the bot, can be edited.
+LIBLIST.GAM		- New and overwritten LIBLIST.GAM to play with realbot
+OLD_LIBLIST.GAM		- The original CS 1.0 LIBLIST.GAM.
+
+(batch files)
+RB_CLEAN.BAT		- File remover for RealBot
+RB_UNINST.BAT		- Uninstaller/Deactivator
+RB_REINST.BAT		- Reinstaller/Reactivator
+
+(txt files)
+REALBOT_FILES.TXT	- This file
+REALBOT_FOR_DUMMIES.TXT - Written by Realbot Users , a big helping hand
+REALBOT_MANUAL.TXT	- The one and only Manual
+REALBOT_README.TXT	- The first file you should read before you
+                          read anything else.
+REALBOT_CONSOLE.TXT	- List of RealBot ONLY console commands.
+REALBOT_INFOPOINT.TXT	- Information about RealBot using info-points
+			  and about adding waypoints manually.
+REALBOT_NAMES.TXT	- Names Database of RealBot
+REALBOT_INSULT.TXT	- Insults Database of RealBot
+
+
+MAPS\
+
+*.RBL			- OPTIMIZED FILES.
+
+NOTE: These files contain the info-point MOVE. RealBot auto-generates
+an RBL file of every map, to save its learned data. However, you need
+to implement the waypoints by yourself. If you want to. The files above
+contain the waypoints for the Global Waypoint System. 

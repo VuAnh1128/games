@@ -1,0 +1,12 @@
+666K Lab - Deathmatch
+
+Created by Julien Tremblay
+julien269@hotmail.com
+
+Terrorists: You are inside the laboratory and must defend against counter-terrotists.
+
+Counter-Terrorists: Infiltrate the laboratory and eliminate the terrorists possessing it.
+
+*Be carefull of exploding CO2 cylinders.
+
+(Press Fire to Continue)
